@@ -10,6 +10,10 @@
 
 ```docker-compose up``` or  ```sudo docker-compose up``` if your current user does not have permissions to execute docker yet
 
+To run the container in the background(detached) use -d
+
+```sudo docker-compose up -d```
+
 
 # Original Repository Readme
 

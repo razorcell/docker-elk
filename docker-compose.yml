@@ -28,12 +28,26 @@ services:
       # Use single node discovery in order to disable production mode and avoid bootstrap checks.
       # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
       discovery.type: single-node
+#Static IP Bridge network config
     networks:
-      - elk
+      backend:
+        ipv4_address: 10.0.0.5
+#Simple Bridge network config
+    # networks:
+    #   - elk
 
+#Static IP Bridge network config
 networks:
-  elk:
+  backend:
     driver: bridge
+    ipam:
+     config:
+       - subnet: 10.0.0.0/24
+         gateway: 10.0.0.1
+#Simple Bridge network config
+# networks:
+#   elk:
+#     driver: host
 
 volumes:
   elasticsearch:
