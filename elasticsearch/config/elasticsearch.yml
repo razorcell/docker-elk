@@ -3,6 +3,8 @@
 ## https://github.com/elastic/elasticsearch/blob/master/distribution/docker/src/docker/config/elasticsearch.yml
 #
 cluster.name: "docker-cluster"
+
+#Listen on all interfaces
 # network.host: 0.0.0.0
 
 #Static IP Bridge network config
