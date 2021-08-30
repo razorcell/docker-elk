@@ -1,3 +1,16 @@
+# Elastic Search Simple setup
+
+0 - Install docker engine & docker-compose
+1 - Clone the repo
+2 - Cd to the docker-compse.xml file directory
+3 - run 
+```docker-compose up```
+or 
+```sudo docker-compose up``` 
+if your current user does not have permissions to execute docker yet
+
+
+
 # Elastic stack (ELK) on Docker
 
 [![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-7.14.0-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
