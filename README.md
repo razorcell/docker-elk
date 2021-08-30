@@ -8,12 +8,7 @@
 
 3 - run 
 
-```docker-compose up```
-or 
-
-```sudo docker-compose up``` 
-
-if your current user does not have permissions to execute docker yet
+```docker-compose up``` or  ```sudo docker-compose up``` if your current user does not have permissions to execute docker yet
 
 
 
