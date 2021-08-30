@@ -1,4 +1,4 @@
-# Elastic Search Simple setup
+# SH: Elastic Search Simple setup
 
 0 - Install docker engine & docker-compose
 1 - Clone the repo
